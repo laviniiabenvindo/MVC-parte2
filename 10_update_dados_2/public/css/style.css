@@ -1,0 +1,106 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+#navbar{
+    border-bottom: 1px solid #CCC;
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+    background-color: pink;
+    color:#FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+#navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+#navbar ul li{
+   margin-left: 1rem;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: #FFF;
+}
+.conteiner{
+    max-width: 500px;
+    margin: 2rem auto;
+}
+.conteiner form{margin-top: 1rem;}
+.form-control{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.form-control label{
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+}
+.form-control input, 
+.form-control textarea{
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+form input[type="submit"]{
+    background-color: pink;
+    color: #FFF;
+    padding: 0.7rem 1.5rem;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.taks-list{
+    list-style: none;
+    margin-top: 1rem;
+}
+li{
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #CCC;
+    justify-content: space-between;
+}
+li a{
+    color: pink;
+    text-decoration: none;
+}
+li a:hover{
+    color: rgb(206, 93, 93);
+}
+.taks-list .title{
+    color: pink;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transform: .5s;
+}
+.taks-list .title:hover{
+    color: rgb(206, 93, 93);
+}
+.actions{
+    display: flex;
+}
+.actions i{
+    font-size: 1.5rem;
+    margin-right: 0.6rem;
+    color: rgb(206, 93, 93);
+}
+.actions i:hover{
+    color: pink;
+}
+.actions form{
+    margin: 0;
+}
+.actions button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
